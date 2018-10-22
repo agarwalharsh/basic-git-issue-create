@@ -1,0 +1,40 @@
+.container {
+    margin-top: 25px;
+}
+
+.repoDetail {
+    padding: 20px 0 35px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.repoDetailWrapper {
+    border-bottom: 1px solid #bce8f1;
+}
+
+.create-issue {
+    float: right;
+}
+
+.new-issue-wrap {
+    display: flex;
+}
+
+.new-issue-wrap .col-md-12,
+.new-issue-wrap .col-md-5 {
+    padding-left: 0;
+}
+
+.new-issue-wrap .col-md-12 {
+    padding-bottom: 15px;
+}
+
+.submit-issue.btn {
+    margin-bottom: 15px;
+}

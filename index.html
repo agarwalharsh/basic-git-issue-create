@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-1.min.css">
+    <title>Github Issue Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">User Repository</div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="input-group">
+                            <input type="text" class="username form-control" placeholder="Enter Gtihub Username">
+                        </div>
+                        <button type="button" class="getrepo btn btn-success">Get Repo List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row repo-list-wrap hidden">
+            <div class="col-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">Repository List</div>
+                    </div>
+                    <div class="panel-body repo-list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-user hidden">
+            <div class="col-12">
+                Sorry, User Does not exist
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
